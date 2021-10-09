@@ -317,6 +317,7 @@
 "Assets/playerCollision.cs"
 "Assets/playerController.cs"
 "Assets/properties.cs"
+"Assets/skripts/Camera/CameraShake.cs"
 "Assets/skripts/doorInteraction.cs"
 "Assets/skripts/InteractionObject.cs"
 "Assets/skripts/Inventory.cs"

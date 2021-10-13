@@ -5,7 +5,7 @@ using UnityEngine;
 public class InteractionObject : MonoBehaviour
 {
     public bool open = false;
-
+    public string noteName = null;
     public void doInteration() {
         gameObject.SetActive(false);
     }

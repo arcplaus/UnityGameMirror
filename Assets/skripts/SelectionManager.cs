@@ -16,9 +16,8 @@ public class SelectionManager : MonoBehaviour
     [SerializeField] private Animator myDoor;
 
     public GameObject noteType;
-    public GameObject noteType2;
     public GameObject enemy;
-
+    public GameObject[] notes = new GameObject[3];
     [SerializeField] private Material highlightMat;
     [SerializeField] private Material DefaultMat;
     private Transform _selection;
@@ -73,20 +72,18 @@ public class SelectionManager : MonoBehaviour
             }
             if (selection.CompareTag(goodMirrorTag))
             {
-
                 var selectionRenderer = selection.GetComponent<Renderer>();
+                curInterObjScript = selection.GetComponent<InteractionObject>();
                 if (selectionRenderer != null && Input.GetMouseButtonDown(0))
                 {
-                    if (!first)
-                    {
-                        GameObject noteInstance = Instantiate(noteType, selection.position, selection.rotation);
-                        first = true;
-                    } else if (!second) {
-                        GameObject noteInstance = Instantiate(noteType2, selection.position, selection.rotation);
-                        second = true;
+                    for (int i = 0; i < 3; i++) {
+                        if (notes[i].name == (curInterObjScript.noteName)) {
+                            noteType = notes[i];
+                        }
                     }
-                    selection.gameObject.SetActive(false);
+                    GameObject noteInstance = Instantiate(noteType, selection.position, selection.rotation);
                     
+                    selection.gameObject.SetActive(false);
                     
                 }
                 _selection = selection;

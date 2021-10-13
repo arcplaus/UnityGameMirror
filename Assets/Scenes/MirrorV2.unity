@@ -7264,6 +7264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   open: 0
+  noteName: Note
 --- !u!65 &566151118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16934,9 +16935,12 @@ MonoBehaviour:
   goodMirrorTag: goodMirror
   badMirrorTag: badMirror
   myDoor: {fileID: 0}
-  noteType: {fileID: 8483040221512937346, guid: 0ca58e362ad0b76468b17f2d7fb2a5e3, type: 3}
-  noteType2: {fileID: 2518622230951172895, guid: 4e6e1ff0a87089642bef21ae8a01b0da, type: 3}
+  noteType: {fileID: 0}
   enemy: {fileID: 8682566122553857342, guid: d2eabcc69bd78ba4090a123c1b6a0e00, type: 3}
+  notes:
+  - {fileID: 8483040221512937346, guid: 0ca58e362ad0b76468b17f2d7fb2a5e3, type: 3}
+  - {fileID: 7131399075080457363, guid: b8d7cf104d6e0954786e0fad02665523, type: 3}
+  - {fileID: 1204586363542436063, guid: 116948a1c35f002498bd0307f011c598, type: 3}
   highlightMat: {fileID: 2100000, guid: 9ed915a39debdd94f895b156e7523e0b, type: 2}
   DefaultMat: {fileID: 2100000, guid: 40f0a67125024274c846664dbeae17ab, type: 2}
   player: {fileID: 0}

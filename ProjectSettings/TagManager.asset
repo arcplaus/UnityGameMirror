@@ -9,6 +9,7 @@ TagManager:
   - mirror
   - goodMirror
   - badMirror
+  - Note
   layers:
   - Default
   - TransparentFX

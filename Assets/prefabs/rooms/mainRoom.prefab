@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 205700135664539665}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0, z: 180}
   m_Children: []
   m_Father: {fileID: 42977915139226939}
   m_RootOrder: 0
@@ -65,7 +65,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 2ce2c9ab9fbbfcb4f80f57d7e4684cb1, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: a55d2087dd7882c46938c656ac5b81d6, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -314,7 +314,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 2ce2c9ab9fbbfcb4f80f57d7e4684cb1, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: dbda10983bb684e4c96d937095e99eea, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -359,7 +359,7 @@ Transform:
   m_GameObject: {fileID: 4060147822824181188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: -1}
   m_Children: []
   m_Father: {fileID: 1895253968734532473}
   m_RootOrder: 0
@@ -397,7 +397,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 2ce2c9ab9fbbfcb4f80f57d7e4684cb1, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: adafb3e943486ae40b3a5ffd77ca9b95, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -582,7 +582,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: c71eed76c02ca8b45ae8a8edfcb7bee3, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 8221b487eba2e964c9669b726c6265cb, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -654,7 +654,11 @@ PrefabInstance:
     - target: {fileID: -7918335002988649766, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 135549d233627d745afa89b68431e892, type: 2}
+      objectReference: {fileID: 2100000, guid: 7efca67254126e1498dd6460ccfbdf70, type: 2}
+    - target: {fileID: -4292154010595695564, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -227.4396
+      objectReference: {fileID: 0}
     - target: {fileID: -4292154010595695564, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -844,7 +848,11 @@ PrefabInstance:
     - target: {fileID: -7918335002988649766, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 36e5cd1ad168f6f41969eb6b65cb541b, type: 2}
+      objectReference: {fileID: 2100000, guid: f1665f4ec80869640afeea04cde8baac, type: 2}
+    - target: {fileID: -4292154010595695564, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -227.4396
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
       propertyPath: m_Name
       value: Mirror 1
@@ -1002,7 +1010,7 @@ PrefabInstance:
     - target: {fileID: -7918335002988649766, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 36e5cd1ad168f6f41969eb6b65cb541b, type: 2}
+      objectReference: {fileID: 2100000, guid: 0eea045a1f395124abaab07808c2eb08, type: 2}
     - target: {fileID: 919132149155446097, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
       propertyPath: m_Name
       value: Mirror 1 (5)
@@ -1073,7 +1081,7 @@ PrefabInstance:
     - target: {fileID: -7918335002988649766, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 36e5cd1ad168f6f41969eb6b65cb541b, type: 2}
+      objectReference: {fileID: 2100000, guid: 44ba2e08721b72540903f3f145d30ef2, type: 2}
     - target: {fileID: 919132149155446097, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
       propertyPath: m_Name
       value: Mirror 1 (3)

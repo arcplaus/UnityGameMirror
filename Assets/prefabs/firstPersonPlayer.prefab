@@ -157,6 +157,7 @@ GameObject:
   - component: {fileID: 1748927600363345106}
   - component: {fileID: 7891749285100291376}
   - component: {fileID: 682625863887917546}
+  - component: {fileID: 3365935142484013572}
   m_Layer: 0
   m_Name: firstPersonPlayer
   m_TagString: Untagged
@@ -5007,6 +5008,21 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &3365935142484013572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748927600363345116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1cd648ab1b3fd84687f84f51ba8894c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 0
+  dynamicSound: {fileID: 8425661813842321087}
+  post: {fileID: 11400000, guid: c208a62fb50b8744aa16463cc68dc03b, type: 2}
 --- !u!1 &1748927600388107191
 GameObject:
   m_ObjectHideFlags: 0
@@ -5200,7 +5216,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0e4d6fd15e42bd94ea92247e305a38f3, type: 3}
   - {fileID: 8300000, guid: 39c2750fa8aee0a48b17e87d745baa91, type: 3}
   volume: 0.65
-  dynamicIndex: 0
   playPredicates: 1
 --- !u!1 &1748927600698453900
 GameObject:

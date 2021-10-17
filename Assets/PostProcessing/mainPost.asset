@@ -93,10 +93,10 @@ MonoBehaviour:
     value: 5
   tint:
     overrideState: 0
-    value: 0
+    value: 90
   colorFilter:
     overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
+    value: {r: 111.43049, g: 0, b: 0, a: 1}
   hueShift:
     overrideState: 0
     value: 0
@@ -1538,7 +1538,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0
+    value: 1
   fastMode:
     overrideState: 0
     value: 0

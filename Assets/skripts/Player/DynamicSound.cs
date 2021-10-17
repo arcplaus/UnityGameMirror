@@ -9,7 +9,7 @@ public class DynamicSound : MonoBehaviour
     public AudioClip[] dynamicLoops;
     private AudioSource[] audioSources;
     public float volume;
-    public float dynamicIndex = 0.0f;
+    private float dynamicIndex = 0.0f;
     public bool playPredicates;
 
     // Called before the first frame

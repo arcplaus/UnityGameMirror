@@ -53,7 +53,7 @@ public class DynamicSound : MonoBehaviour
     /// <param name="index">The index to set the dynamic loop state to</param>
     /// <exception>IndexOutOfRangeException</exception>
     public void SetDynamicIndex(float index) {
-        if (index < 0 || index >= dynamicLoops.Length) {
+        if (index < 0 || index > dynamicLoops.Length) {
              Debug.LogException(new IndexOutOfRangeException(), this);
         }
         dynamicIndex = index;

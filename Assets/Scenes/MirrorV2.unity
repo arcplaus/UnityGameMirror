@@ -11022,6 +11022,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 1703f11ccebc19948921dc992c1301c4, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: 1703f11ccebc19948921dc992c1301c4, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1703f11ccebc19948921dc992c1301c4, type: 3}
       propertyPath: m_Name
       value: Mirror 3
@@ -17835,7 +17843,7 @@ GameObject:
   - component: {fileID: 708179062}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: goodMirror
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28949,7 +28957,7 @@ GameObject:
   - component: {fileID: 1259410439}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: goodMirror
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36096,10 +36104,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 1703f11ccebc19948921dc992c1301c4, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
     - target: {fileID: -7918335002988649766, guid: 1703f11ccebc19948921dc992c1301c4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 10396ab2f8b20024a8e8b40e52e108b9, type: 2}
+    - target: {fileID: -7029948723529949830, guid: 1703f11ccebc19948921dc992c1301c4, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1703f11ccebc19948921dc992c1301c4, type: 3}
       propertyPath: m_Name
       value: BathroomBadMirror
@@ -43874,7 +43890,7 @@ GameObject:
   - component: {fileID: 2024693566}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: badMirror
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47274,10 +47290,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: goodMirror
       objectReference: {fileID: 0}
+    - target: {fileID: 7885052492362152550, guid: c83d16561823df045a4c8cd727858a17, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
     - target: {fileID: 8429993856465775320, guid: c83d16561823df045a4c8cd727858a17, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7c95110ee7a8cfc4287648125e5049c0, type: 2}
+    - target: {fileID: 8687914387463640440, guid: c83d16561823df045a4c8cd727858a17, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83d16561823df045a4c8cd727858a17, type: 3}
 --- !u!1001 &3302218183808231975
@@ -47344,9 +47368,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1086802801}
     m_Modifications:
+    - target: {fileID: 205700135664539665, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
     - target: {fileID: 780749481016239275, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3036046232010987818, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166372549330997375, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 3310077567124542848, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
       objectReference: {fileID: 0}
     - target: {fileID: 3946290621953819747, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
       propertyPath: m_Enabled
@@ -47356,17 +47396,41 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4060147822824181188, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 4471456931393273697, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 4635019011178334775, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
     - target: {fileID: 4700596446780733826, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4943690868270707306, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
     - target: {fileID: 5203607370079315038, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 5218274618658672525, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
       propertyPath: m_TagString
       value: badMirror
       objectReference: {fileID: 0}
     - target: {fileID: 5429454989328201045, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727425375590525803, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
       objectReference: {fileID: 0}
     - target: {fileID: 5831205685425423619, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
       propertyPath: m_RootOrder
@@ -47416,11 +47480,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: mainRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 5865795351576141172, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
     - target: {fileID: 5972641769550244380, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
       propertyPath: m_TagString
       value: badMirror
       objectReference: {fileID: 0}
+    - target: {fileID: 6173903296562783529, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
     - target: {fileID: 6208906526142911041, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: badMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409351491025765444, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 6523216006304416885, guid: f2d4fc0225519de4b9f2b996bf33b92d, type: 3}
       propertyPath: m_TagString
       value: badMirror
       objectReference: {fileID: 0}
@@ -47532,7 +47612,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 229120738356946180, guid: 5db5aab2da0ec7e4d88c6caede264322, type: 3}
       propertyPath: m_TagString
-      value: badMirror
+      value: goodMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 316107690818398769, guid: 5db5aab2da0ec7e4d88c6caede264322, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 1270000976299066671, guid: 5db5aab2da0ec7e4d88c6caede264322, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
       objectReference: {fileID: 0}
     - target: {fileID: 2158074751974390415, guid: 5db5aab2da0ec7e4d88c6caede264322, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -47847,13 +47935,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1086802801}
     m_Modifications:
+    - target: {fileID: 2937266433820159619, guid: 11dd82604189f6444a564e5881e4e152, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
     - target: {fileID: 3426762264731476406, guid: 11dd82604189f6444a564e5881e4e152, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413454171618673053, guid: 11dd82604189f6444a564e5881e4e152, type: 3}
       propertyPath: m_TagString
       value: goodMirror
       objectReference: {fileID: 0}
     - target: {fileID: 7745926538585043392, guid: 11dd82604189f6444a564e5881e4e152, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040962421753362941, guid: 11dd82604189f6444a564e5881e4e152, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
       objectReference: {fileID: 0}
     - target: {fileID: 8665614315029392146, guid: 11dd82604189f6444a564e5881e4e152, type: 3}
       propertyPath: m_RootOrder

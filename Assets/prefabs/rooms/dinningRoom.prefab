@@ -265,6 +265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: goodMirror1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
+      propertyPath: m_TagString
+      value: goodMirror
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 055c760e07191a14db9b2319ac2d3c64, type: 3}
 --- !u!1 &3426762264731476406 stripped

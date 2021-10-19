@@ -62,7 +62,7 @@ public class SelectionManager : MonoBehaviour
             }
             if (selection.CompareTag(doorTag) && Input.GetKey(KeyCode.E))
             {
-                Debug.Log("open");
+
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
@@ -72,6 +72,7 @@ public class SelectionManager : MonoBehaviour
             }
             if (selection.CompareTag(goodMirrorTag))
             {
+                Debug.Log("good");
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 curInterObjScript = selection.GetComponent<InteractionObject>();
                 if (selectionRenderer != null && Input.GetMouseButtonDown(0))
@@ -91,13 +92,13 @@ public class SelectionManager : MonoBehaviour
             }
             if (selection.CompareTag(badMirrorTag))
             {
-
+                Debug.Log("bad");
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null && Input.GetMouseButtonDown(0))
                 {
                     GameObject enemyInstance = Instantiate(enemy, selection.position, selection.rotation);
                     selection.gameObject.SetActive(false);
-
+                    Debug.Log("badCheck");
 
                 }
                 _selection = selection;

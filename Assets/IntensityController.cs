@@ -19,6 +19,7 @@ public class IntensityController : MonoBehaviour
     private const float GN_INTENSITY_MAX_DELTA = 0.6f;
     private LensDistortion ld;
     private const float LD_INTENSITY_MAX = 0.9f;
+    private const float INTENSITY_DECAY = -0.01f;
 
     void Start() {
         post.TryGetSettings(out ca);
@@ -29,6 +30,7 @@ public class IntensityController : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
+        intensity -= INTENSITY_DECAY * Time.deltaTime;
         if (intensity > 1.0f) intensity = 1.0f;
         if (intensity < 0.0f) intensity = 0.0f;
         ca.intensity.value = intensity * chromaticAberrationModifier;

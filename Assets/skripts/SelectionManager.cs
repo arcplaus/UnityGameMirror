@@ -7,13 +7,16 @@ public class SelectionManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
     [SerializeField] private string selectableTag = "Selectable";
     [SerializeField] private string doorTag = "door";
     [SerializeField] private string goodMirrorTag = "goodMirror";
     [SerializeField] private string badMirrorTag = "badMirror";
     [SerializeField] private Animator myDoor;
+
+    public CameraShake camShake;
+    public IntensityController intensityController;
 
     public GameObject noteType;
     public GameObject enemy;
@@ -27,7 +30,7 @@ public class SelectionManager : MonoBehaviour
     private bool highlighted = false;
     private bool first = false;
     private bool second = false;
-    // Update is called once per frame 
+    // Update is called once per frame
     void Update()
     {
         if (_selection != null) {
@@ -56,7 +59,7 @@ public class SelectionManager : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     curInterObjScript = selection.GetComponent<InteractionObject>();
-                    inventory.addItem(selection.gameObject); 
+                    inventory.addItem(selection.gameObject);
                     selection.gameObject.SetActive(false);
                 }
             }
@@ -83,9 +86,9 @@ public class SelectionManager : MonoBehaviour
                         }
                     }
                     GameObject noteInstance = Instantiate(noteType, selection.position, selection.rotation);
-                    
+
                     selection.gameObject.SetActive(false);
-                    
+
                 }
                 _selection = selection;
 
@@ -99,6 +102,8 @@ public class SelectionManager : MonoBehaviour
                     GameObject enemyInstance = Instantiate(enemy, selection.position, selection.rotation);
                     selection.gameObject.SetActive(false);
                     Debug.Log("badCheck");
+                    intensityController.intensity += 0.3f;
+                    camShake.shakeFactor = 0.7f;
 
                 }
                 _selection = selection;

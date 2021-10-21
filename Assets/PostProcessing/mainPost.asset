@@ -144,7 +144,7 @@ MonoBehaviour:
     value: {x: 1, y: 0.979993, z: 0.9021966, w: 0}
   gamma:
     overrideState: 1
-    value: {x: 1, y: 0.9711753, z: 0.958391, w: 0}
+    value: {x: 1, y: 0.88666934, z: 0.8666855, w: 0}
   gain:
     overrideState: 1
     value: {x: 1, y: 0.98143524, z: 0.9616385, w: 0}
@@ -1375,7 +1375,7 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.25
+    value: 0.28859726
   smoothness:
     overrideState: 1
     value: 1
@@ -1410,7 +1410,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0
+    value: 0.34737536
   intensityX:
     overrideState: 0
     value: 1
@@ -1544,7 +1544,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.25
+    value: 0.4815836
   size:
     overrideState: 1
     value: 0.74
@@ -1573,7 +1573,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0
+    value: 0.578959
   fastMode:
     overrideState: 0
     value: 0
